@@ -1,0 +1,427 @@
+body {
+  box-sizing: border-box;
+  background-color: #eceaea;
+}
+
+/*#region Nav-Menu */
+#nav-menu {
+  padding-left: 18px;
+  border-bottom: 1px solid #ccc;
+  color: #0b311a;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  margin-left: -15px;
+  margin-right: -15px;
+  background-color: #ded;
+  box-shadow: 0 2px 4px rgba(3,3,3,0.26);
+}
+
+  #nav-menu #navbarNav {
+    display: block !important;
+  }
+
+    #nav-menu #navbarNav .logo {
+      display: inline-block;
+      float: left;
+    }
+
+      #nav-menu #navbarNav .logo img {
+        height: 50px;
+      }
+
+  #nav-menu .nav-left {
+  }
+
+    #nav-menu .nav-left li {
+    }
+
+      #nav-menu .nav-left li a {
+        color: #7d7a7a;
+        font-weight: bold;
+        font-size: 15px;
+        transition: 0.4s
+      }
+
+        #nav-menu .nav-left li a:hover {
+          color: #a04f4f;
+        }
+
+      #nav-menu .nav-left li img {
+        height: 60px;
+      }
+
+  #nav-menu .nav-item.active {
+    background-color: #28a745;
+    border-radius: 5px;
+  }
+
+    #nav-menu .nav-item.active .nav-link {
+      color: #fff;
+    }
+
+  #nav-menu .nav-right {
+    display: block;
+    float: right !important;
+  }
+
+    #nav-menu .nav-right ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+      #nav-menu .nav-right ul li {
+        float: right;
+        margin-top: 6px
+      }
+
+        #nav-menu .nav-right ul li a {
+          text-decoration: none;
+          color: #000000
+        }
+
+        #nav-menu .nav-right ul li.system-time a {
+          color: #ff0000;
+          font-weight: 800;
+          font-size: 16px;
+        }
+
+        #nav-menu .nav-right ul li.login-box .account-wrap {
+          position: relative;
+          padding: 0px 15px;
+        }
+
+          #nav-menu .nav-right ul li.login-box .account-wrap .user-confirm {
+            font-size: 16px;
+            color: #a04f4f;
+            font-weight: bold;
+          }
+
+          #nav-menu .nav-right ul li.login-box .account-wrap img {
+            height: 20px;
+            margin-right: 4px;
+          }
+
+          #nav-menu .nav-right ul li.login-box .account-wrap .dropdown-menu a {
+            font-size: 13px !important;
+            font-weight: normal !important;
+          }
+
+        #nav-menu .nav-right ul li.language a {
+          float: left;
+          line-height: 30px
+        }
+
+          #nav-menu .nav-right ul li.language a img {
+            height: 30px;
+            margin: 0 10px;
+          }
+
+
+
+
+/*#endregion */
+
+/*#region Main */
+#main {
+}
+
+  #main .content {
+    position: relative;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 1px 0px 7px 0px #bfb0b0;
+  }
+
+    /*#region Default */
+
+    #main .content .button-add {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #f3f5f8;
+      padding-bottom: 10px;
+    }
+
+    /*#region list-option */
+    #main .content .list-item:nth-child(2n+1) .item {
+      background-color: #eae8c8;
+      padding: 10px;
+    }
+
+    #main .content .list-item:nth-child(2n) .item {
+      background-color: #d4d4c6;
+      padding: 10px;
+    }
+
+    #main .content .item .name-cate {
+      display: inline-block;
+      background-color: #ef5858;
+      padding: 5px 20px;
+      border-radius: 5px;
+      margin-right: 5px;
+      color: #f3f5f8;
+    }
+
+    #main .content .item .name-cate {
+      display: inline-block;
+      background-color: #ef5858;
+      padding: 5px 20px;
+      border-radius: 5px;
+      margin-right: 5px;
+      color: #f3f5f8;
+      font-size:14px;
+    }
+
+    #main .content .item .amount {
+    }
+
+    /*#endregion */
+
+    /*#region Update-Panel */
+    #main .content .update-panel {
+      margin: 20px 0;
+      position: relative;
+    }
+
+      #main .content .update-panel .panel-left {
+        background-color: #1e88e5;
+        padding: 10px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        display: inline-block
+      }
+
+
+      #main .content .update-panel .panel-right {
+      }
+
+      /*#main .content .update-panel .panel-right select {
+                    width: 200px;
+                    margin-right: 10px
+                }*/
+
+      #main .content .update-panel .panel-table {
+        margin: 20px 0;
+      }
+    /*#endregion */
+
+    /*#endregion */
+
+    /*#region Device List */
+    #main .content #device {
+    }
+
+      #main .content #device .header-device {
+        border-bottom: 1px solid #f3f5f8;
+        padding-bottom: 10px;
+      }
+
+      #main .content #device .page-titles h3 {
+        color: #a04f4f !important;
+        font-size: 25px;
+        font-weight: 500;
+      }
+
+      #main .content #device .header-device .button {
+        float: right;
+      }
+
+        #main .content #device .header-device .button button {
+          margin-left: 10px;
+        }
+
+      #main .content #device .table-device {
+        margin-top: 20px;
+      }
+/*#endregion */
+/*#endregion */
+
+/*#region Modal */
+.modal-content {
+}
+
+  .modal-content .modal-header {
+    padding-left: 18px;
+    border-bottom: 1px solid #ccc;
+    color: #695748;
+    text-transform: uppercase;
+    background-color: #ded;
+    box-shadow: 0 2px 4px rgba(3,3,3,0.26);
+  }
+
+  .modal-content .modal-body .important label {
+    color: #ff0000;
+    font-weight: bold;
+  }
+
+  .modal-content .modal-body .important input,
+  .modal-content .modal-body .important select {
+    background-color: #faebd7;
+  }
+
+  .modal-content .modal-footer {
+    justify-content: center;
+  }
+
+
+
+/*#endregion */
+
+/*#region Table-custom */
+.table {
+}
+
+  .table thead tr {
+    background-color: #1e88e5;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .table tbody tr:nth-child(2n) {
+    background-color: #e8efe6;
+  }
+
+  .table tbody tr i.check {
+    color: #00fe24
+  }
+
+  .table tbody tr i.un-check {
+    color: red;
+  }
+
+/*#endregion */
+
+/*#region Footer */
+#footer {
+  font-size: 12px
+}
+
+  #footer .info {
+    position: relative;
+    padding: 15px;
+    background-color: #ffffff;
+    border-top: 1px solid #f3f5f8;
+    box-shadow: 1px 0px 7px 0px #bfb0b0;
+  }
+
+    #footer .info .copyright {
+      float: left;
+    }
+
+      #footer .info .copyright span {
+      }
+
+
+    #footer .info .box {
+      float: right
+    }
+
+      #footer .info .box img {
+      }
+
+/*#endregion */
+
+/*#region Device List */
+
+
+.page-titles {
+  padding: 15px 0;
+}
+
+  .page-titles h3 {
+    margin-bottom: 0px;
+    margin-top: 8px;
+  }
+
+  .page-titles .breadcrumb {
+    padding: 0px;
+    background: transparent;
+    font-size: 14px;
+  }
+
+    .page-titles .breadcrumb li {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .page-titles .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+      font-family: themify;
+      color: #a6b7bf;
+      font-size: 11px;
+    }
+
+    .page-titles .breadcrumb .breadcrumb-item.active {
+      color: #99abb4;
+    }
+
+
+/*#endregion */
+
+/*#region Commons */
+
+
+
+.table-hover tbody tr:hover {
+  color: #212529;
+  background-color: rgb(30, 136, 229);
+  color: #fff;
+}
+
+.table-bordered th, .table-bordered td {
+  vertical-align: middle;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 35px !important;
+  height: 40px !important;
+}
+
+.select2-container .select2-selection--single {
+  height: 40px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  top: 70% !important;
+}
+
+.overMain {
+  position: relative;
+  height: 500px;
+}
+
+.overMainCate {
+  position: relative;
+  height: 65px;
+}
+
+  .overMain .over-loading, .overMainCate .over-loading {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    background-color: #fff;
+    text-align: center;
+    /* height: 100px; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+    .over-loading .over-img{
+      display:none;
+    }
+
+    .overMain .over-loading .over-img, .overMainCate .over-loading .over-img {
+      width: 100%;
+      height: 100%;
+      display:block!important;
+    }
+
+      .overMain .over-loading .over-img img, .overMainCate .over-loading .over-img img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 135px;
+      }
+/*#endregion */
+

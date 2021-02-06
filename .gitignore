@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/BorrowerMachine
+/BorrowerMachine/bin
+/BorrowerMachine/obj/Debug
+/BorrowerMachine/Assets/vue
+/BorrowerMachine/obj/Release/Package/PackageTmp
+/BorrowerMachine/obj/Release/TransformWebConfig
+/BorrowerMachine/obj/Release
+/BorrowerMachine/Properties/PublishProfiles
+/CodeUtility/bin/Release
+/Models
